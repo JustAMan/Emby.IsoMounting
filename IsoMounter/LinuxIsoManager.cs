@@ -118,7 +118,7 @@ namespace IsoMounter
         public bool CanMount(string path)
         {
 
-            if (EnvironmentInfo.OperatingSystem == OperatingSystem.Linux) {
+            if (EnvironmentInfo.OperatingSystem == MediaBrowser.Model.System.OperatingSystem.Linux) {
                 Logger.Info(
                     "[{0}] Checking we can attempt to mount [{1}], Extension = [{2}], Operating System = [{3}], Executables Available = [{4}].",
                     Name,
